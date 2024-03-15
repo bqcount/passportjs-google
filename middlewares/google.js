@@ -3,7 +3,7 @@ import { OAuth2Strategy as GoogleStrategy } from "passport-google-oauth";
 import { config } from "dotenv";
 config();
 
-const emails = ["hernandezadonis221@gmail.com"];
+const emails = ["bqcount@gmail.com"];
 
 passport.use(
   "auth-google",
